@@ -109,31 +109,31 @@ a {
 .neumorphism-button {
   background: linear-gradient(
     145deg,
-    rgba(100, 100, 105, 0.15) 15%,
-    rgba(33, 33, 33, 0.4) 80%
+    rgba(76, 86, 106, 1) 15%,
+    rgba(208, 135, 112, 1) 80%
   );
-  box-shadow: -4px -3px 2px 0 rgba(250, 250, 250, 0.13),
-    4px 4px 2px 0 rgba(0, 0, 0, 0.4);
+  box-shadow: -4px -3px 2px 0 rgba(236, 239, 244, 1),
+    4px 4px 2px 0 rgba(46, 52, 64, 1);
 }
 
 @mixin neumorphism-button-pressed {
   background: linear-gradient(
     150deg,
-    rgba(20, 20, 20, 0.4) 10%,
-    rgba(115, 115, 115, 0.15) 80%
+    rgba(46 , 52 , 64, 1) 10%,
+    rgba(76, 86, 106, 1) 80%
   );
-  box-shadow: 1px 1px 2px 0 rgba(210, 210, 210, 0.4),
+  box-shadow: 1px 1px 2px 0 rgba(216, 222, 233, 1),
     -1px -1px 2px rgba(0, 0, 0, 0.4), inset 3px 3px 2px 0 rgba(0, 0, 0, 0.4),
-    inset -1px -2px 2px rgba(210, 210, 210, 0.4);
+    inset -1px -2px 2px rgba(216, 222, 233, 1);
 }
 
 .neumorphism-card {
-  box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 1),
-    inset -2px -2px 4px rgba(99, 99, 99, 1);
+  box-shadow: inset 2px 2px 4px rgba(46, 52, 64, 1),
+    inset -2px -2px 4px rgba(76, 86, 106, 1);
 }
 
 .neumorphism-card-big {
-  box-shadow: 5px 5px 4px #161718, -5px -5px 4px #404346;
+  box-shadow: 5px 5px 4px #161718, -5px -5px 4px #3b4252;
 }
 
 /* Preloader */
@@ -309,7 +309,7 @@ a {
         colorEmail 1s linear forwards;
     }
     .social-svg {
-      fill: #d44638;
+      fill: #bf616a;
     }
   }
 
@@ -319,7 +319,7 @@ a {
         colorLinkedin 1s linear forwards;
     }
     .social-svg {
-      fill: #007bb6;
+      fill: #5e81ac;
     }
   }
 
@@ -329,7 +329,7 @@ a {
         colorTwitter 1s linear forwards;
     }
     .social-svg {
-      fill: #1da1f2;
+      fill: #5e81ac;
     }
   }
 
@@ -361,19 +361,19 @@ a {
 
   @keyframes colorEmail {
     to {
-      stroke: #b23121;
+      stroke: #bf616a;
     }
   }
 
   @keyframes colorLinkedin {
     to {
-      stroke: #007bb6;
+      stroke: #5e81ac;
     }
   }
 
   @keyframes colorTwitter {
     to {
-      stroke: #1da1f2;
+      stroke: #88c0d0;
     }
   }
 }
@@ -449,10 +449,10 @@ a {
   .timeline:before {
     background: linear-gradient(
       to bottom,
-      #f3f3f3 0%,
-      #d5d5d5 8%,
-      #d5d5d5 92%,
-      #f3f3f3 100%
+      #e5e9f0 0%,
+      #d8dee9 8%,
+      #d8dee9 92%,
+      #e5e9f0 100%
     );
     content: " ";
     height: 100%;
@@ -637,13 +637,13 @@ a {
 
   .linkedin:hover {
     .social-svg {
-      fill: #007bb6;
+      fill: #5e81ac;
     }
   }
 
   .twitter:hover {
     .social-svg {
-      fill: #1da1f2;
+      fill: #88c0d0;
     }
   }
 }
